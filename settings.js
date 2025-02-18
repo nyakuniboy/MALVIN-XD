@@ -1,4 +1,4 @@
-const fs = require('fs');
+addconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
-// add your Session Id 
+//MALVIN-XD~k05SASiA#GHXDGuIYtUs60qQGq1NVYFgCvGt8X0KHhm8LUxDujQ4 
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
